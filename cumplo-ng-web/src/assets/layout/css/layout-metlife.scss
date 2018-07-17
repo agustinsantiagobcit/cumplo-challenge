@@ -1,0 +1,71 @@
+/*Topbar*/
+$topbarBgLeftColor:#ffffff;
+$topbarBgRightColor:#ffffff;
+$topbarLogoColor:#ffffff;
+$topbarProfileTextColor:#ffffff;
+$topbarQuickMenuIconColor1:#ffffff;
+$topbarQuickMenuIconColor2:#ffffff;
+$topbarQuickMenuIconColor3:#ffffff;
+$topbarQuickMenuIconColor4:#ffffff;
+$topbarQuickMenuButtonTextColor:#ffffff;
+$quickMenuTooltipBgColor:#212121;
+$quickMenuTooltipTextColor:#c8c8c8;
+$topbarSearchInputTextColor:#ffffff;
+$topbarSearchInputBorderColor:#f4f4f4;
+$topbarSearchInputBorderFocusColor:#ffffff;
+$topbarSearchInputIconColor:#ffffff;
+$topbarRightPanelIconColor:#f4f4f4;
+$topbarIconHoverBgColor:rgba(244,244,244,.24);
+$topbarSidebarButtonColor:#231f20;
+
+/* Topbar Profile */
+$profileMenuBgColor:#eaeaea;
+$profileMenuItemTextColor:#333333;
+$profileMenuItemIconColor:#a6a6a6;
+$profileMenuItemHoverBgColor:#d0d0d0;
+$profileMenuItemHoverIconColor:#333333;
+$profileMenuItemHoverTextColor:#333333;
+$profileMenuItemActiveBgColor:#a4ce4e;
+$profileMenuItemActiveTextColor:#083459;
+$profileMenuItemActiveIconColor:#083459;
+$profileMenuItemPadding:8px;
+
+/*Sidebar*/
+$sidebarBgColor:#0c619d;
+$sidebarDividerColor:#d0d0d0;
+
+$sidebarMenuItemTextColor:#ffffff;
+$sidebarMenuItemIconColor:#ffffff;
+$sidebarMenuItemHoverBgColor:#1791d7;
+$sidebarMenuItemHoverIconColor:#ffffff;
+$sidebarMenuItemHoverTextColor:#ffffff;
+$sidebarMenuItemActiveBgColor:#b4dbfe;
+$sidebarMenuItemActiveTextColor:#083459;
+$sidebarMenuItemActiveIconColor:#083459;
+
+$sidebarSubmenuBgColor:#f4f4f4;
+$sidebarSubmenuItemTextColor:#333333;
+$sidebarSubmenuItemIconColor:#a6a6a6;
+$sidebarSubmenuItemHoverBgColor:#d0d0d0;
+$sidebarSubmenuItemHoverTextColor:#ffffff;
+$sidebarSubmenuItemHoverIconColor:#ffffff;
+$sidebarSubmenuItemActiveBgColor:#eaeaea;
+$sidebarSubmenuItemActiveTextColor:#083459;
+$sidebarSubmenuItemActiveIconColor:#083459;
+$sidebarMenuItemActiveRouteTextColor: #ffffff;
+$sidebarMenuItemActiveRouteIconColor: #eeeeee;
+$sidebarSubmenuItemActiveRouteBgColor: #a4ce4e;
+
+$slimMenuTooltipBgColor:#212121;
+$slimMenuTooltipTextColor:#ffffff;
+
+//mask
+$maskBgColor: #212121;
+
+/*Footer*/
+$footerBgColor:#666666;
+$footerTextColor:#ffffff;
+$footerIconColor:#ffffff;
+
+@import '../../sass/_fonts';
+@import '../../sass/layout/_layout';

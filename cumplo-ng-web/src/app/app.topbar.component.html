@@ -1,0 +1,30 @@
+<div class="layout-topbar">
+
+    <a href="/" class="logo-container">
+        <img class="logo" alt="MetlifeNG" src="assets/layout/images/cumplo.svg" />
+        <span class="app-name"></span>
+    </a>
+
+    <div id="logo_text_right">
+        <h1 class="application-name">Desafío Cumplo</h1>
+    </div>
+
+    <div class="topbar-content">
+        <a href="#" id="topbar-sidebar-button" (click)="app.onMenuButtonClick($event)">
+            <i class="fa fa-bars"></i>
+        </a>
+        
+    </div>
+
+    <script type="text/javascript">
+        window.onscroll = function() {
+                if (window.XMLHttpRequest) {
+                    if (document.documentElement.scrollTop > 25 || self.pageYOffset > 25) {
+                        $('.welcome-text').fadeOut(500);
+                    } else if (document.documentElement.scrollTop < 25 || self.pageYOffset < 25) {
+                        $('.welcome-text').fadeIn(500);
+                    }
+                }
+            }
+    </script>
+</div>
