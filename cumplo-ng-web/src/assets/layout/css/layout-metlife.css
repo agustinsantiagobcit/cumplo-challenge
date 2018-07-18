@@ -64,6 +64,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url("../fonts/Roboto-Regular.ttf") format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: url("../fonts/RobotoCondensed-Regular.ttf") format('truetype');
+  font-style: normal;
+}
+
 .container {
   width: 100%;
   height: 100%;
